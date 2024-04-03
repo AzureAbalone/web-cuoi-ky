@@ -1,4 +1,3 @@
-
 :root {
     --card-height: 300px;
     --card-width: calc(var(--card-height) / 1.5);
@@ -28,7 +27,7 @@
     background-color: rgba(255, 255, 255, 0);
     border: 0cm;
     margin-left: 30px;
-    
+
 }
 
 .wrapper {
@@ -91,14 +90,13 @@
 
 .title {
     width: 150px;
-
-    font-size: 25px;
+    font-size: 21px;
     font-weight: 900;
     transform: translate3d(-10%, 110px, 110px);
     transition: transform 0.5s;
-    background: -webkit-linear-gradient(#ff00ea,#fff200);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
+    background: -webkit-linear-gradient(#ff00ea, #fff200);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
 
 
@@ -125,44 +123,51 @@
 
 /* RESPONSIVE */
 @media (max-width: 992px) {
-    .duy{
+    .duy {
         position: absolute;
         margin-top: 60em;
         margin-left: -260px;
-                
+
     }
-    .dat{
+
+    .dat {
         position: absolute;
         margin-top: 60em;
         margin-left: 300px;
     }
-    .stars-container{
+
+    .stars-container {
         height: 75em;
     }
 }
+
 @media (max-width: 576px) {
-    .tuan{
+    .tuan {
         position: absolute;
         margin-top: 15em;
         margin-left: 55px;
     }
-    .duc{
+
+    .duc {
         position: absolute;
         margin-top: 70em;
         margin-left: 55px;
     }
-    .duy{
+
+    .duy {
         position: absolute;
         margin-top: 125em;
         margin-left: 55px;
-                
+
     }
-    .dat{
+
+    .dat {
         position: absolute;
         margin-top: 180em;
         margin-left: 55px;
     }
-    .stars-container{
+
+    .stars-container {
         height: 120em;
     }
 }
