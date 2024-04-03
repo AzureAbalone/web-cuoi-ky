@@ -25,8 +25,6 @@ function App() {
       <div className='col-12'>
         <Footer2 />
       </div>
-    </div>
-    <div>
       <SpeedInsights />
     </div>
   );

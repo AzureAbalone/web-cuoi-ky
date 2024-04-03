@@ -6,21 +6,21 @@ class Header extends Component {
 		alert("0928152468");
 	};
 	hobao = () => {
-		window.location.href = "https://tuan-dang05.github.io/tuan/";
+		window.location.href = "./bao.html";
 	};
 	tuanminh = () => {
-		window.location.href = "https://tuan-dang05.github.io/duy/";
+		window.location.href = "./minh.html";
 	};
 
 	thanhtung = () => {
-		window.location.href = "https://tuan-dang05.github.io/duc/";
+		window.location.href = "./tung.html";
 	};
 
 	xuanhung = () => {
-		window.location.href = "https://tuan-dang05.github.io/dat/";
+		window.location.href = "./hung.html";
 	};
 	thengoc = () => {
-		window.location.href = "https://tuan-dang05.github.io/dat/";
+		window.location.href = "./ngoc.html";
 	};
 	render() {
 		return (

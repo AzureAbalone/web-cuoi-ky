@@ -2,19 +2,19 @@ import React from "react";
 import "./member.css";
 const Member = () => {
 	const bao = function () {
-		window.location.href = "https://tuan-dang05.github.io/tuan/";
+		window.location.href = "./bao.html";
 	};
 	const minh = function () {
-		window.location.href = "https://tuan-dang05.github.io/duc/";
+		window.location.href = "./minh.html";
 	};
 	const hung = function () {
-		window.location.href = "https://tuan-dang05.github.io/duy/";
+		window.location.href = "./hung.html";
 	};
 	const tung = function () {
-		window.location.href = "https://tuan-dang05.github.io/dat/";
+		window.location.href = "./tung.html";
 	};
 	const ngoc = function () {
-		window.location.href = "https://tuan-dang05.github.io/dat/";
+		window.location.href = "./ngoc.html";
 	};
 	return (
 		<div>
@@ -28,15 +28,15 @@ const Member = () => {
 				>
 					<div className="wrapper">
 						<img
-							src="./img/card/Tuan_dang.jpg"
+							src="./img/card/baongu.jpg"
 							alt=""
 							className="cover-image"
 						/>
 					</div>
 					<p className="title">Phạm Hồ Bảo</p>
 					<img
-						style={{ width: "200px" }}
-						src="./img/card/tuan.png"
+						style={{ width: "200px", height: "250px" }}
+						src="./img/card/baongu-card.png"
 						alt=""
 						className="character"
 					/>
@@ -76,7 +76,7 @@ const Member = () => {
 				>
 					<div className="wrapper">
 						<img
-							src="./img/card/duc_duy.jpg"
+							src="./img/card/xuanhung.jpg"
 							alt=""
 							className="cover-image"
 						/>
