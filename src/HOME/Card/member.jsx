@@ -35,7 +35,7 @@ const Member = () => {
 					</div>
 					<p className="title">Phạm Hồ Bảo</p>
 					<img
-						style={{ width: "200px", height: "250px" }}
+						style={{ width: "200px" }}
 						src="./img/card/baongu-card.png"
 						alt=""
 						className="character"
@@ -88,7 +88,7 @@ const Member = () => {
 							display: "inline-block",
 							left: "-100px",
 						}}
-						src="./img/card/duy.png"
+						src="./img/card/xuanhung-card.png"
 						alt=""
 						className="character"
 					/>
