@@ -12,7 +12,7 @@ class Main extends Component {
 				<div className="video" style={{ marginLeft: "-12px" }}>
 					<video
 						className="object-fit-cover"
-						width={"100.75%"}
+						width={"102%"}
 						autoPlay
 						muted
 						loop
