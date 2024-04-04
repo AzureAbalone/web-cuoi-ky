@@ -103,7 +103,7 @@ const Member = () => {
 				>
 					<div className="wrapper">
 						<img
-							src="./img/card/xuan_dat.jpg"
+							src="./img/card/tung.jpg"
 							alt=""
 							className="cover-image"
 						/>
@@ -115,7 +115,7 @@ const Member = () => {
 							display: "inline-block",
 							left: "-10px",
 						}}
-						src="./img/card/dat.png"
+						src="./img/card/tung-card.jpg"
 						alt=""
 						className="character"
 					/>
@@ -142,7 +142,7 @@ const Member = () => {
 							display: "inline-block",
 							left: "-10px",
 						}}
-						src="./img/card/dat.png"
+						src="./img/card/thengoc-card.png"
 						alt=""
 						className="character"
 					/>
