@@ -130,7 +130,7 @@ const Member = () => {
 				>
 					<div className="wrapper">
 						<img
-							src="./img/card/xuan_dat.jpg"
+							src="./img/card/ngoc.jpg"
 							alt=""
 							className="cover-image"
 						/>
