@@ -35,8 +35,12 @@ const Member = () => {
 					</div>
 					<p className="title">Phạm Hồ Bảo</p>
 					<img
-						style={{ width: "230px" }}
-						src="./img/card/.png"
+						style={{
+							width: "350px",
+							display: "inline-block",
+							left: "-100px",
+						}}
+						src="./img/card/ts-card.png"
 						alt=""
 						className="character"
 					/>
@@ -50,7 +54,7 @@ const Member = () => {
 				>
 					<div className="wrapper">
 						<img
-							src="./img/card/quang_duc.jpg"
+							src="./img/card/minh.jpg"
 							alt=""
 							className="cover-image"
 						/>
@@ -58,11 +62,11 @@ const Member = () => {
 					<p className="title">Hoàng Tuấn Minh</p>
 					<img
 						style={{
-							width: "480px",
+							width: "350px",
 							display: "inline-block",
-							left: "-190px",
+							left: "-25px",
 						}}
-						src="./img/card/duc.png"
+						src="./img/card/minh-card.jpg"
 						alt=""
 						className="character"
 					/>
@@ -111,11 +115,11 @@ const Member = () => {
 					<p className="title">Nguyễn Thanh Tùng</p>
 					<img
 						style={{
-							width: "150px",
+							width: "200px",
+							height: "225px",
 							display: "inline-block",
-							left: "-10px",
 						}}
-						src="./img/card/tung-card.jpg"
+						src="./img/card/tung-card.png"
 						alt=""
 						className="character"
 					/>
@@ -138,9 +142,9 @@ const Member = () => {
 					<p className="title">Đặng Thế Ngọc</p>
 					<img
 						style={{
-							width: "150px",
+							width: "450px",
+							left: "-157px",
 							display: "inline-block",
-							left: "-10px",
 						}}
 						src="./img/card/thengoc-card.png"
 						alt=""
