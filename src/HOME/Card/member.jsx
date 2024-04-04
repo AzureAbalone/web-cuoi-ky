@@ -28,15 +28,15 @@ const Member = () => {
 				>
 					<div className="wrapper">
 						<img
-							src="./img/card/baongu.jpg"
+							src="./img/card/Apple-Music-Awards-Artist-of-the.png"
 							alt=""
 							className="cover-image"
 						/>
 					</div>
 					<p className="title">Phạm Hồ Bảo</p>
 					<img
-						style={{ width: "200px" }}
-						src="./img/card/baongu-card.png"
+						style={{ width: "230px" }}
+						src="./img/card/.png"
 						alt=""
 						className="character"
 					/>
