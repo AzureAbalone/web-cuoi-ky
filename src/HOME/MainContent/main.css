@@ -33,10 +33,13 @@
   color: #fff;
   border: 2px solid #000;
   box-shadow: 5px 5px 0px #fff;
+  border: 2px solid white;
 }
 
 .comic-button:active {
-  background-color: #fcf414;
+  background-color: red;
+  border: 2px solid white;
+  color: black;
   box-shadow: none;
   transform: translateY(4px);
 }
