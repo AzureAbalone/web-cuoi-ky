@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/web-cuoi-ky/static/css/main.e9af4618.css",
+    "main.js": "/web-cuoi-ky/static/js/main.6dbd7aff.js",
+    "static/js/453.1407b060.chunk.js": "/web-cuoi-ky/static/js/453.1407b060.chunk.js",
+    "index.html": "/web-cuoi-ky/index.html",
+    "main.e9af4618.css.map": "/web-cuoi-ky/static/css/main.e9af4618.css.map",
+    "main.6dbd7aff.js.map": "/web-cuoi-ky/static/js/main.6dbd7aff.js.map",
+    "453.1407b060.chunk.js.map": "/web-cuoi-ky/static/js/453.1407b060.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e9af4618.css",
+    "static/js/main.6dbd7aff.js"
+  ]
+}
