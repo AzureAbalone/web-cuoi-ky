@@ -32,6 +32,8 @@ class Main extends Component {
 						<p>NHÀ QUÊ ĐI CODE</p>
 					</div>
 					<div
+						data-aos="zoom-out"
+						data-aos-duration="1000"
 						className="text-light hoi_anh_em"
 						style={{
 							position: "absolute",
