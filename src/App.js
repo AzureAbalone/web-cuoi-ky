@@ -6,7 +6,6 @@ import Header from './HOME/Header/header';
 import Main from './HOME/MainContent/main';
 import { SpeedInsights } from "@vercel/speed-insights/react"
 
-// daay la test
 function App() {
   return (
     <div className="container-fluid">

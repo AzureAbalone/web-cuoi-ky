@@ -237,8 +237,8 @@ body {
 
 .animation {
     position: absolute;
-    top: 1825px;
-    left: 655px;
+    top: 195vh;
+    left: 34vw;
 
     body {
         background: rgba(218, 218, 218, 1)
@@ -419,8 +419,8 @@ body {
 
 .animation2 {
     position: absolute;
-    top: 1825px;
-    left: 955px;
+    top: 195vh;
+    left: 50vw;
 
     body {
         background: rgba(218, 218, 218, 1)
@@ -600,8 +600,8 @@ body {
 
 .animation3 {
     position: absolute;
-    top: 1825px;
-    left: 1255px;
+    top: 195vh;
+    left: 66vw;
 
     body {
         background: rgba(218, 218, 218, 1)

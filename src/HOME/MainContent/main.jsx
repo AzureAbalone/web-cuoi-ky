@@ -1,7 +1,6 @@
 import React, { Component } from "react";
 import AOS from "aos";
 import "./main.css";
-// day la test
 class Main extends Component {
 	componentDidMount() {
 		AOS.init();
