@@ -9,7 +9,7 @@ import { SpeedInsights } from "@vercel/speed-insights/react"
 function App() {
 	return (
 		<div className="container-fluid">
-			<div className='col-12 position-fixed' style={{ marginLeft: '-12px', marginTop: '0px', background: 'rgba(255,255,255,0.15)', backdropFilter: "blur(5px)", zIndex: '10' }}>
+			<div className='col-12 position-fixed' style={{ marginLeft: '-12px', marginTop: '0px', background: 'rgba(0,0,0,0.2)', backdropFilter: "blur(6px)", zIndex: '10' }}>
 				<Header />
 			</div>
 			<div className='col-12' style={{ marginTop: '0px' }}>

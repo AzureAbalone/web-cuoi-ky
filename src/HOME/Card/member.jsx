@@ -22,7 +22,7 @@ const Member = () => {
 			<div className="cards">
 				<div
 					className="card tuan"
-					data-aos="fade-up"
+					data-aos="zoom-in"
 					data-aos-duration={500}
 					onClick={() => bao()}
 				>
@@ -38,7 +38,7 @@ const Member = () => {
 				{/* Tuan Minh */}
 				<div
 					className="card duc"
-					data-aos="fade-up"
+					data-aos="zoom-in"
 					data-aos-duration={1000}
 					onClick={() => minh()}
 				>
@@ -54,7 +54,7 @@ const Member = () => {
 				{/* Xuan Hung */}
 				<div
 					className="card duy"
-					data-aos="fade-up"
+					data-aos="zoom-in"
 					data-aos-duration={1500}
 					onClick={() => hung()}
 				>
@@ -71,7 +71,7 @@ const Member = () => {
 				{/* Thanh Tung */}
 				<div
 					className="card dat"
-					data-aos="fade-up"
+					data-aos="zoom-in"
 					data-aos-duration={2000}
 					onClick={() => tung()}
 				>
@@ -88,7 +88,7 @@ const Member = () => {
 				{/* The Ngoc */}
 				<div
 					className="card dat"
-					data-aos="fade-up"
+					data-aos="zoom-in"
 					data-aos-duration={2500}
 					onClick={() => ngoc()}
 				>
