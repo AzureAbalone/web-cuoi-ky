@@ -22,8 +22,8 @@ const Member = () => {
 			<div className="cards">
 				<div
 					className="card tuan"
-					data-aos="fade-up"
-					data-aos-duration="1500"
+					data-aos="fade-down"
+					data-aos-duration={500}
 					onClick={() => bao()}
 				>
 					<div className="wrapper">
@@ -39,7 +39,7 @@ const Member = () => {
 				<div
 					className="card duc"
 					data-aos="fade-down"
-					data-aos-duration="1500"
+					data-aos-duration={1000}
 					onClick={() => minh()}
 				>
 					<div className="wrapper">
@@ -54,8 +54,8 @@ const Member = () => {
 				{/* Xuan Hung */}
 				<div
 					className="card duy"
-					data-aos="fade-up"
-					data-aos-duration="1500"
+					data-aos="fade-down"
+					data-aos-duration={1500}
 					onClick={() => hung()}
 				>
 					<div className="wrapper">
@@ -72,7 +72,7 @@ const Member = () => {
 				<div
 					className="card dat"
 					data-aos="fade-down"
-					data-aos-duration="1000"
+					data-aos-duration={2000}
 					onClick={() => tung()}
 				>
 					<div className="wrapper">
@@ -88,8 +88,8 @@ const Member = () => {
 				{/* The Ngoc */}
 				<div
 					className="card dat"
-					data-aos="fade-up"
-					data-aos-duration="1000"
+					data-aos="fade-down"
+					data-aos-duration={2500}
 					onClick={() => ngoc()}
 				>
 					<div className="wrapper">
