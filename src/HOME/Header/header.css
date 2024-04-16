@@ -1,49 +1,9 @@
-.link-test::after {
-    content: "";
-    position: absolute;
-    height: 3px;
-    width: 100%;
-    background-color: #f00;
-    bottom: 0;
-    left: 0;
-    transform: scaleX(0);
-    transition: all 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+.zoom:hover {
+    scale: 1.2;
 }
 
-.link-test:hover::after {
-    transform: scaleX(1);
-}
-
-.link-test_2::after {
-    height: 3px;
-    background-color: red;
-    width: 50px;
-    top: 45px;
-    left: 10px;
-    position: absolute;
-    content: "";
-    transform: scaleX(0);
-    transition: all 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
-}
-
-.link-test_2:hover::after {
-    transform: scaleX(1);
-}
-
-.link-test_3::after {
-    height: 3px;
-    background-color: red;
-    width: 60px;
-    top: 45px;
-    right: 85px;
-    position: absolute;
-    content: "";
-    transform: scaleX(0);
-    transition: all 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
-}
-
-.link-test_3:hover::after {
-    transform: scaleX(1);
+.zoom {
+    transition: all 0.5s ease-in-out;
 }
 
 .dropdown-menu>div>button:hover {
@@ -65,14 +25,14 @@
 }
 
 .dropdown:hover>.dropdown-menu {
-    animation: showLocate 0.4s ease-in-out both;
+    animation: appear 0.4s ease-in-out both;
     display: block;
-    -webkit-animation: showLocate 0.4s ease-in-out both;
-    -moz-animation: showLocate 0.4s ease-in-out both;
-    -o-animation: showLocate 0.4s ease-in-out both;
+    -webkit-animation: appear 0.4s ease-in-out both;
+    -moz-animation: appear 0.4s ease-in-out both;
+    -o-animation: appear 0.4s ease-in-out both;
 }
 
-@keyframes showLocate {
+@keyframes appear {
     from {
         opacity: 0;
         transform: translateY(-20px);
@@ -82,4 +42,28 @@
         transform: translateY(0px);
         opacity: 1;
     }
+}
+
+a.logo-title {
+    color: white;
+    margin-left: 1%;
+    text-decoration: none;
+    font-style: italic;
+    font-weight: bold;
+    font-size: 25px;
+    text-transform: uppercase;
+    text-shadow: 0 3px 10px #fff;
+}
+
+div.logo-center {
+    display: flex;
+    align-items: center;
+}
+
+button.color {
+    color: white;
+}
+
+button.color:hover {
+    color: white;
 }

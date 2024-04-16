@@ -26,20 +26,15 @@ class Header extends Component {
 		return (
 			<div className="">
 				<div className="row border-info border-bottom border-2">
-					<div className="col-10 ps-3">
+					<div className="col-10 ps-3 logo-center">
 						<img
 							src="./img/logo.png"
 							className="ms-1"
 							width={55}
 							alt="logo"
 						/>
-						<a href={<Header />}>
-							<img
-								src="./img/name.png"
-								width={170}
-								className="ms-3"
-								alt="nha_que_di_code"
-							/>
+						<a href={<Header />} className="logo-title">
+							Nhóm 2 tập code
 						</a>
 					</div>
 					<div className="col-2">
@@ -62,17 +57,17 @@ class Header extends Component {
 								>
 									<ul className="navbar-nav me-auto mb-2 mb-lg-0">
 										<li className="nav-item me-4">
-											<a
-												className="nav-link active link-test_2 fs-6"
+											<button
+												className="nav-link zoom fs-5 color"
 												aria-current="page"
 												href={<Header />}
 											>
 												Home
-											</a>
+											</button>
 										</li>
-										<li className="nav-item dropdown me-4">
+										<li className="nav-item dropdown ms-4 me-4">
 											<button
-												className="nav-link link-test fs-6"
+												className="nav-link zoom fs-5 color"
 												data-bs-toggle="dropdown"
 												aria-expanded="false"
 											>
@@ -80,7 +75,7 @@ class Header extends Component {
 											</button>
 											<ul
 												className="dropdown-menu"
-												style={{ width: "200px" }}
+												style={{ width: "250px" }}
 											>
 												<div
 													className="flex-column"
@@ -170,16 +165,13 @@ class Header extends Component {
 												</div>
 											</ul>
 										</li>
-										<li className="nav-item me-4">
+										<li className="nav-item me-4 ms-4">
 											<button
-												className="nav-link link-test_3 fs-6"
+												className="nav-link zoom fs-5 color"
 												onClick={this.showContact}
 											>
 												Contact
 											</button>
-										</li>
-										<li className="icon mt-1 me-4 fs-5">
-											<i class="fas fa-bell"></i>
 										</li>
 									</ul>
 								</div>

@@ -2,11 +2,11 @@
 @media (max-width: 1400px) {
 
     /* Main content responsive */
-    .nha_que {
+    .main-title {
         margin-top: -120px;
     }
 
-    .hoi_anh_em {
+    .small-title {
         margin-top: -150px;
     }
 
@@ -18,11 +18,11 @@
 @media (max-width: 1200px) {
 
     /* Main content responsive */
-    .nha_que {
+    .main-title {
         margin-top: -170px;
     }
 
-    .hoi_anh_em {
+    .small-title {
         margin-top: -200px;
     }
 
@@ -38,11 +38,11 @@
 @media (max-width: 992px) {
 
     /* Main content responsive */
-    .nha_que>p {
+    .main-title>p {
         font-size: 70px;
     }
 
-    .hoi_anh_em {
+    .small-title {
         margin-top: -200px;
     }
 
@@ -54,19 +54,19 @@
 @media (max-width: 768px) {
 
     /* Main content responsive */
-    .nha_que>p {
+    .main-title>p {
         font-size: 45px;
     }
 
-    .nha_que {
+    .main-title {
         margin-top: -240px;
     }
 
-    .hoi_anh_em {
+    .small-title {
         margin-top: -290px;
     }
 
-    .hoi_anh_em>p {
+    .small-title>p {
         font-size: 20px;
     }
 
@@ -83,15 +83,15 @@
 @media (max-width: 576px) {
 
     /* Main content responsive */
-    .nha_que>p {
+    .main-title>p {
         font-size: 35px;
     }
 
-    .nha_que {
+    .main-title {
         margin-top: -290px;
     }
 
-    .hoi_anh_em {
+    .small-title {
         margin-top: -350px;
     }
 

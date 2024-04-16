@@ -27,23 +27,13 @@ const Member = () => {
 					onClick={() => bao()}
 				>
 					<div className="wrapper">
+						<p className="title">Phạm Hồ Bảo</p>
 						<img
 							src="./img/card/Apple-Music-Awards-Artist-of-the.png"
 							alt=""
 							className="cover-image"
 						/>
 					</div>
-					<p className="title">Phạm Hồ Bảo</p>
-					<img
-						style={{
-							width: "350px",
-							display: "inline-block",
-							left: "-100px",
-						}}
-						src="./img/card/ts-card.png"
-						alt=""
-						className="character"
-					/>
 				</div>
 				{/* Tuan Minh */}
 				<div
@@ -53,23 +43,13 @@ const Member = () => {
 					onClick={() => minh()}
 				>
 					<div className="wrapper">
+						<p className="title">Hoàng Tuấn Minh</p>
 						<img
 							src="./img/card/minh.jpg"
 							alt=""
 							className="cover-image"
 						/>
 					</div>
-					<p className="title">Hoàng Tuấn Minh</p>
-					<img
-						style={{
-							width: "350px",
-							display: "inline-block",
-							left: "-25px",
-						}}
-						src="./img/card/minh-card.jpg"
-						alt=""
-						className="character"
-					/>
 				</div>
 				{/* Xuan Hung */}
 				<div
@@ -79,23 +59,13 @@ const Member = () => {
 					onClick={() => hung()}
 				>
 					<div className="wrapper">
+						<p className="title">Nguyễn Xuân Hưng</p>
 						<img
 							src="./img/card/xuanhung.jpg"
 							alt=""
 							className="cover-image"
 						/>
 					</div>
-					<p className="title">Nguyễn Xuân Hưng</p>
-					<img
-						style={{
-							width: "370px",
-							display: "inline-block",
-							left: "-100px",
-						}}
-						src="./img/card/xuanhung-card.png"
-						alt=""
-						className="character"
-					/>
 				</div>
 
 				{/* Thanh Tung */}
@@ -106,50 +76,30 @@ const Member = () => {
 					onClick={() => tung()}
 				>
 					<div className="wrapper">
+						<p className="title">Nguyễn Thanh Tùng</p>
 						<img
 							src="./img/card/tung.jpg"
 							alt=""
 							className="cover-image"
 						/>
 					</div>
-					<p className="title">Nguyễn Thanh Tùng</p>
-					<img
-						style={{
-							width: "200px",
-							height: "225px",
-							display: "inline-block",
-						}}
-						src="./img/card/tung-card.png"
-						alt=""
-						className="character"
-					/>
 				</div>
 
 				{/* The Ngoc */}
 				<div
 					className="card dat"
-					data-aos="fade-down"
+					data-aos="fade-up"
 					data-aos-duration="1000"
 					onClick={() => ngoc()}
 				>
 					<div className="wrapper">
+						<p className="title">Đặng Thế Ngọc</p>
 						<img
 							src="./img/card/ngoc.jpg"
 							alt=""
 							className="cover-image"
 						/>
 					</div>
-					<p className="title">Đặng Thế Ngọc</p>
-					<img
-						style={{
-							width: "450px",
-							left: "-157px",
-							display: "inline-block",
-						}}
-						src="./img/card/thengoc-card.png"
-						alt=""
-						className="character"
-					/>
 				</div>
 			</div>
 		</div>

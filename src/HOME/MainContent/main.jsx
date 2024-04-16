@@ -21,7 +21,7 @@ class Main extends Component {
 					<div
 						data-aos="zoom-out"
 						data-aos-duration="1000"
-						className="nha_que text-center text-light"
+						className="main-title text-center text-light"
 						style={{
 							position: "absolute",
 							top: "40rem",
@@ -29,12 +29,10 @@ class Main extends Component {
 							transform: "translate(-50%,-20rem)",
 						}}
 					>
-						<p>NHÀ QUÊ ĐI CODE</p>
+						<p>NHÓM 2 TẬP CODE</p>
 					</div>
 					<div
-						data-aos="zoom-out"
-						data-aos-duration="1000"
-						className="text-light hoi_anh_em"
+						className="text-light small-title"
 						style={{
 							position: "absolute",
 							top: "50rem",
@@ -43,7 +41,7 @@ class Main extends Component {
 							fontSize: "30px",
 						}}
 					>
-						<p>Hội anh em nhà quê lên phố</p>
+						<p>Hội anh em ĐHQG tập code</p>
 					</div>
 					<button
 						className="comic-button"

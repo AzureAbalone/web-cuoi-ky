@@ -1,6 +1,6 @@
 :root {
     --card-height: 300px;
-    --card-width: calc(var(--card-height) / 1.5);
+    --card-width: 300px;
 }
 
 .cards {
@@ -42,83 +42,35 @@
     width: 100%;
     height: 100%;
     object-fit: cover;
-    border-radius: 10px;
+    border-radius: 200px;
+    transition: all 0.5s ease-in-out;
+    ;
 }
 
-.card:hover .wrapper {
-    transform: perspective(900px) translateY(-5%) rotateX(25deg) translateZ(0);
-    box-shadow: 2px 35px 32px -8px rgba(0, 0, 0, 0.75);
-}
 
-.wrapper::before,
-.wrapper::after {
-    content: "";
-    opacity: 0;
-    width: 100%;
-    height: 80px;
-    transition: all 0.5s;
-    position: absolute;
-    left: 0;
-    border-radius: 10px;
-}
-
-.wrapper::before {
-    top: 0;
-    height: 80%;
-    background-image: linear-gradient(to top,
-            transparent 46%,
-            rgba(12, 13, 19, 0.5) 68%,
-            rgba(12, 13, 19) 97%);
-}
-
-.wrapper::after {
-    bottom: 0;
-    opacity: 0;
-    background-image: linear-gradient(to bottom,
-            rgba(61, 61, 61, 0.5) 68%,
-            rgb(83, 83, 83) 97%);
-}
-
-.card:hover .wrapper::before,
-.wrapper::after {
+.title:hover {
     opacity: 1;
-}
-
-.card:hover .wrapper::after {
-    height: 120px;
+    backdrop-filter: blur(4px) brightness(75%);
 }
 
 .title {
-    width: 150px;
-    font-size: 21px;
+    font-size: 22px;
     font-weight: 900;
-    transform: translate3d(-10%, 110px, 110px);
-    transition: transform 0.5s;
-    background: -webkit-linear-gradient(#ff00ea, #fff200);
+    width: 100%;
+    height: 100%;
+    padding-top: 45%;
+    left: -11%;
+    border-radius: 200px;
+    margin: auto 11%;
+    background: #fff;
+    opacity: 0;
+    text-align: center;
+    text-shadow: 0 0 10px #fff;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
-}
-
-
-.card:hover .title {
-    transform: translate3d(-10%, 90px, 110px);
-}
-
-/* .card:hover .title-2 {
-    transform: translate3d(0%, -50px, 100px);
-} */
-
-.character {
-    width: 100%;
-    opacity: 0;
-    transition: all 0.5s;
+    transition: all 0.5s linear;
+    z-index: 999;
     position: absolute;
-    z-index: -1;
-}
-
-.card:hover .character {
-    opacity: 1;
-    transform: translate3d(0%, -30%, 100px);
 }
 
 /* RESPONSIVE */

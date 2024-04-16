@@ -20,7 +20,7 @@ const Footer = () => {
 					className="text-center mt-5"
 					style={{ fontSize: "clamp(15px,7vw,70px)" }}
 				>
-					Game
+					Boardgame
 				</p>
 				<p
 					data-aos="flip-left"
@@ -72,20 +72,12 @@ const Footer = () => {
 						>
 							{" "}
 							<i>
-								Chúng tớ là những sinh viên đang học tập tại Đại
-								học Quốc gia Hà Nội cùng chuyên ngành là công
-								nghệ thông tin. Chúng tớ rất đam mê code và có
-								thể code hàng ngày mặc dù ngồi nhiều sẽ bị trĩ
-								nhưng vì đam mê nên chúng tớ sẽ không bỏ cuộc
+								Nhóm chúng tớ hiện đang học chuyên ngành CNTT
+								tại Trường Quốc Tế thuộc ĐHQGHN. Chúng tớ rất
+								đam mê code và muốn tạo ra những dự án tô điểm
+								cho CV của chúng tớ.
 							</i>
 						</b>
-					</div>
-					<br /> <br />
-					<div data-aos="flip-up" data-aos-duration="1500">
-						<i style={{ fontSize: "clamp(10px,2vw,25px)" }}>
-							Các thành viên của <b>nhà quê đi code </b>góp phần
-							tạo nên sản phẩm này.
-						</i>
 					</div>
 				</div>
 			</div>
@@ -99,7 +91,7 @@ const Footer = () => {
 						display: "block",
 						marginLeft: "auto",
 						marginRight: "auto",
-						marginTop: "230px",
+						marginTop: "15vh",
 					}}
 				/>
 				<div
@@ -109,8 +101,6 @@ const Footer = () => {
 					}}
 				>
 					<i>Email: 23070471@vnu.edu.vn</i>
-					<br />
-					<i>Email: phambao281005@gmail.com</i>
 				</div>
 			</div>
 		</div>
