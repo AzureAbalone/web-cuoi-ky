@@ -1,18 +1,20 @@
 // Animations
+// mã khởi tạo hiệu ứng với thư viện AOS.js
 AOS.init({
-  mirror: true,
-  easing: 'ease-in-out',
-  anchorPlacement: 'top-left',
-  duration: 1000
+  mirror: true,//Hiệu ứng sẽ được thực hiện lại khi người dùng cuộn lên trên (scroll up).
+  easing: 'ease-in-out',//Kiểu dịch chuyển (easing) của hiệu ứng, ở đây là dịch chuyển mượt mà.
+  anchorPlacement: 'top-left',//Vị trí neo (anchor) của hiệu ứng, ở đây là góc trên bên trái của phần tử.
+  duration: 1000//Thời gian thực hiện hiệu ứng là 1000ms (1 giây)
 });
 
 // Select all links with hashes
-$('a[href*="#"]')
+//Xử lý cuộn trang đến vị trí mong muốn khi nhấp vào các liên kết (Links) có chứa hash (#)
+$('a[href*="#"]')// lựa chọn thẻ a liên kết #
   // Remove links that don't actually link to anything
   .not('[href="#"]')
-  .not('[href="#0"]')
+  .not('[href="#0"]')// Loại bỏ các liên kết chỉ định đến trang đang hiện tại (#) và liên kết không có hành động (#0).
   .click(function (event) {
-    // On-page links
+    // On-page links: xử lí cuộn trang
     if (
       location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '')
       &&
@@ -34,7 +36,7 @@ $('a[href*="#"]')
           $target.focus();
           if ($target.is(":focus")) { // Checking if the target was focused
             return false;
-          } else {
+          } else {// Nếu không focus được, thêm tabindex và focus lại
             $target.attr('tabindex', '-1'); // Adding tabindex for elements not focusable
             $target.focus(); // Set focus again
           };
@@ -42,3 +44,4 @@ $('a[href*="#"]')
       }
     }
   });
+  F:\Learning HTML,CSS,JS\web-cuoi-ky\public\js\main.js
